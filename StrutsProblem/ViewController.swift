@@ -26,7 +26,6 @@ class ViewController: UIViewController {
 
     override func viewWillLayoutSubviews() {
         if UIDevice.current.orientation == UIDeviceOrientation.landscapeLeft || UIDevice.current.orientation == UIDeviceOrientation.landscapeRight {
-            
             var rect = topLeftView.frame
             rect.size.width = 254
             rect.size.height = 130
@@ -45,7 +44,6 @@ class ViewController: UIViewController {
             bottomView.frame = rect
             
         } else {
-            
             var rect = topLeftView.frame
             rect.size.width = 130
             rect.size.height = 254
