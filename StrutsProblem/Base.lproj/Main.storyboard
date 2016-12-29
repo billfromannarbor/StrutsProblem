@@ -35,6 +35,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="BottomView" destination="UVJ-Sr-akV" id="2fG-tP-eIg"/>
+                        <outlet property="TopLeftView" destination="ABu-vg-04T" id="jXv-o9-6in"/>
+                        <outlet property="TopRightView" destination="BSI-1F-F5w" id="gmq-eu-n6c"/>
+                        <outlet property="bottomView" destination="UVJ-Sr-akV" id="PnA-hB-HDL"/>
+                        <outlet property="topLeftView" destination="ABu-vg-04T" id="Hrl-rw-WS0"/>
+                        <outlet property="topRightView" destination="BSI-1F-F5w" id="OBM-cb-eZR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
